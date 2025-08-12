@@ -26,7 +26,7 @@ mkdir -p $LOG_DIR
 for seed in "${SEED_LIST[@]}"
     do
         # save directory
-        OUTDIR=~/Projects/Additive_Prompt_Tuning/checkpoints/${DATASET}/seed${seed}
+        OUTDIR="./checkpoints/${DATASET}/seed${seed}"
         mkdir -p $OUTDIR
 
         # Create unique log file name
@@ -46,7 +46,7 @@ for seed in "${SEED_LIST[@]}"
             --seed $seed \
             --ema_coeff $EMA_COEFF \
             --schedule $SCHEDULE \
-            --log_dir ${OUTDIR}/my-p > "$LOG_FILE" 2>&1 &
+            --log_dir ${OUTDIR} > "$LOG_FILE" 2>&1 &
 
         # Store the PID of the background process
         PID=$!
@@ -61,7 +61,7 @@ for seed in "${SEED_LIST[@]}"
             echo "Experiment failed"
         fi
 
-        rm -rf ${OUTDIR}/my-p/models
+        rm -rf ${OUTDIR}/models
         
         echo "----------------------------------------"
         
