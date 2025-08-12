@@ -1,4 +1,4 @@
-# ICCV 2025 paper Additive-Prompt-Tuning
+# ICCV 2025 - Achieving More with Less: Additive Prompt Tuning for Rehearsal-Free Class-Incremental Learning
 
 **Paper Link**: [`Arxiv`](https://arxiv.org/abs/2503.07979) **Authors**: [Haoran Chen](https://haoranchen.github.io/), Ping Wang, Zihan Zhou, Xu Zhang, [Zuxuan Wu](https://zxwu.azurewebsites.net/),  [Yu-Gang Jiang](https://scholar.google.com/citations?user=f3_FP8AAAAAJ&hl=en)
 
