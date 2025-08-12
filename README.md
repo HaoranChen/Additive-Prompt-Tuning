@@ -18,13 +18,14 @@ Class-incremental learning (CIL) enables models to learn new classes progressive
 3. timm==0.4.12
 
 ## Datasets
+Download the following datasets and put them under ./data
+
 1. **Cifar100** - should automatically be downloaded
 2. [**Imagenet-R**](https://github.com/hendrycks/imagenet-r)
 3. [**CUB200**](https://drive.google.com/file/d/15u8H-0V27tHnLXVaCUl64u4RGSosMTJi/view)
 4. [**StanfordCars**](https://drive.google.com/file/d/1OWi9oToj5S4qf8yQqcskYURGejOyuvkS/view?usp=drive_link)
 
 ## How to use
-
 ```bash
 bash experiments/cifar100.sh
 bash experiments/imagenet-r.sh
