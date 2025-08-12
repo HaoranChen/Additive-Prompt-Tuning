@@ -32,12 +32,15 @@ bash experiments/cub200.sh
 bash experiments/stanfordcars.sh
 ```
 
+## Acknowledgments
+
+We thank the [Coda-Prompt](https://github.com/GT-RIPL/CODA-Prompt) repo for providing helpful codebase in our work.
 
 ## Contact
 Feel free to contact us if you have any questions or suggestions 
 Email: chenhran21@m.fudan.edu.cn
 
-## :black_nib: Citation
+## Citation
 If you use our code in this repo or find our work helpful, please consider giving a citation:
 
 ```
